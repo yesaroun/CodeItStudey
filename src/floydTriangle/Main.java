@@ -1,14 +1,14 @@
-package pyramid;
+package floydTriangle;
 
 public class Main {
     public static void main(String[] args) {
         ShapePrinter printer = new ShapePrinter();
 
         // 테스트
-        printer.printPyramid(3);
+        printer.printFloydsPyramid(3);
         System.out.println("----------");
-        printer.printPyramid(5);
+        printer.printFloydsPyramid(5);
         System.out.println("----------");
-        printer.printPyramid(10);
+        printer.printFloydsPyramid(15);
     }
 }
