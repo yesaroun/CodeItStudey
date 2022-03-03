@@ -12,7 +12,7 @@ public class ShapePrinter {
         // 반복문 1 - 행을 바꾸는 반복문 (1)
         for(int row = 1; row <= height; row++){
 
-            // 한 행에서 인쇄댈 내용을 담는 문자열 선언(3)
+            // 한 행에서 인쇄될 내용을 담는 문자열 선언(3)
             String line = "";
 
             // 반복문 2 - 한 행에서 열을 바꾸는 반복문 (2)
